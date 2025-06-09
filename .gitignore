@@ -1,1 +1,6 @@
+/.cargo
+/.idea
 /target
+/Cargo.lock
+/jsons
+/config.json
