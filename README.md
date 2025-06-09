@@ -68,14 +68,39 @@ APIを実行する「時刻」または「間隔」を指定します。\
   "api": "https://api.example.com/data"
 }
 ```
-### クロックモードで3時間30分15秒ごとにAPIを実行する場合:
+### クロックモードで3時間30分ごとにAPIを実行する場合:
+### 時:分:秒での指定
 ```json
 {
   "on_time": false,
     "time": {
-    "h": 9,
-    "m": 0,
+    "h": 3,
+    "m": 30,
     "s": 0
+  },
+  "api": "https://api.example.com/data"
+}
+```
+分での指定
+```json
+{
+  "on_time": false,
+    "time": {
+    "h": 0,
+    "m": 210,
+    "s": 0
+  },
+  "api": "https://api.example.com/data"
+}
+```
+### 秒での指定
+```json
+{
+  "on_time": false,
+    "time": {
+    "h": 0,
+    "m": 0,
+    "s": 12600
   },
   "api": "https://api.example.com/data"
 }
