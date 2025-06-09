@@ -1,6 +1,5 @@
-/.cargo
-/.idea
+/.idea/
 /target
-/Cargo.lock
-/jsons
+/jsons/
+/.cargo/
 /config.json
