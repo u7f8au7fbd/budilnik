@@ -1,5 +1,5 @@
 {
-  "api": "https://weather.tsukumijima.net/api/forecast/city/400040",
+  "api": "https://api.example.com/data",
   "on_time": false,
-  "time": {"h": 0,"m": 0,"s": 10}
+  "time": {"h": 0,"m": 0,"s": 90}
 }
